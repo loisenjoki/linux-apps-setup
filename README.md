@@ -1,4 +1,4 @@
-# linux-apps-setup
+# linux-apps-setup create .sh file add the code below and run on Linux cmd
 
 #!/bin/bash
 
@@ -85,7 +85,6 @@ unzip ngrok-stable-linux-amd64.zip
 
 rm ngrok-stable-linux-amd64.zip
 
-# ./ngrok authtoken 3R2tTAeDJvKKR8PvTCk1E_4WMmnj4Kk91czhKyKWfhu
 
 alias ngrok="~/./ngrok http 80"
 
